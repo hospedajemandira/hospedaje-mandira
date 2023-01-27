@@ -1,0 +1,456 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+header .contenedor {
+  display: flex;
+  justify-content: space-between;
+}
+
+header ul {
+  display: flex;
+}
+
+header ul li {
+  list-style: none;
+  margin-right: 65px;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.contenedor {
+  max-width: 1280px;
+  width: 90%;
+  margin: auto;
+}
+
+header {
+ background: linear-gradient(rgba(204, 106, 20, 0.81), rgba(251, 248, 244, 0.8));
+  height: 100vh;
+  background-size: cover;
+}
+
+#hero{
+  min-height: 100vh;
+  position:relative;
+}
+
+video{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%
+    object-fit: cover;
+}
+
+.capa {
+      position:absolute
+      top:0;
+      left:0;
+      width:100%;
+      height:100%
+      background: #000000;
+      opacity:0.5;
+      mix-blend-mode:overlay;
+}
+
+.promo{
+      padding-top:350px;
+      display: flex;
+      flex-direction:column;
+      justify-content: center;
+      width:95%;
+      margin: auto;
+      position: relative;
+      z-index:2;
+}
+
+h1 {
+  font-size: 60px;
+  color: #ffffff;
+  margin: 0;
+}
+
+h2 {
+  font-size: 25px;
+  color: #Ffffff;
+}
+
+.contenedor-titulo {
+  text-align: center;
+  
+}
+
+.contenedor-titulo a, #nosotros a, #blog a, #que-esperas a, #contacto input[type="submit"] {
+  font-size: 14px;
+  color: rgb(250, 245, 245);  
+  background:  #F27711;
+  padding: 14px 24px;
+  width: 128px;
+  display: inline-block;
+}
+
+p.logo {
+  color: #fff;
+  font-size: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+}
+
+
+
+/* SECCION DE Promociones */
+
+h3 {
+  text-align: center;
+  font-size: 55px;
+  font-weight: normal;
+}
+
+#nosotros .contenedor-nosotros {
+  display: flex;
+  justify-content: space-around;
+  text-align: justify;
+}
+
+#nosotros .texto {
+  width: 42%;
+  }
+
+/*SECCION MISION-VISION-VALORES*/
+#misión-visión-valores .contenedor-misiónvisiónvalores {
+  display: flex;
+  justify-content: space-around;
+  text-align: justify;
+  }
+
+#misiónvisiónvalores .texto {
+  width: 42%;
+  }
+
+/* SECCION SERVICIOS */
+
+.contenedor-servicios {
+  display: flex;
+  text-align: justify;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  color: rgb(19, 18, 18);
+}
+
+.servicio {
+  width: 25%;
+  padding: 34px 30px 8px 36px;
+  border-radius: 20px;
+  margin-bottom: 40px;
+  position: relative;
+}
+.servicio h3 {
+  width: 95%;
+  font-size: 25px;
+  margin: 25;
+  position: center;
+  text-align: center;
+  color: rgb(248, 136, 44);
+  padding: 20px;
+  margin: 0px;
+  letter-spacing: 10px;
+  font-family: fantasy;
+  font size:50px;
+  text-shadow: 0px 0px 5px white;
+  border: 4px solid white;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px black; 
+}
+
+.servicio h4 {
+  font-size: 25px;
+  margin: 15;
+  text-align: center;
+  color: rgb(8, 8, 8);
+}
+
+.servicio h5 {
+  font-size: 15px;
+  margin: 25;
+  text-align: center;
+  color: rgb(14, 13, 13);
+  text-shadow: 0px 0px 5px orange;
+}
+
+
+.servicio p {
+  margin-bottom: 60px;
+  height: 184px;
+}
+
+.contenedor-servicios .violeta {
+    background: linear-gradient(to top, #eea051, #ffffff);
+    box-shadow: 0 12px 30px 0 rgba(12, 12, 12, 0.37);
+}
+.contenedor-servicios .celeste {
+    background: linear-gradient(to top, #eea051, #ffffff);
+    box-shadow: 0 12px 30px 0 rgba(3, 3, 3, 0.3);
+}
+
+.icono {
+  float: right;
+  position: center;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgb(245, 243, 243); 
+}
+
+/* SECCION MIS TRABAJOS */
+
+button.owl-prev, button.owl-next {
+    font-size: 40px !important;
+}
+
+span {
+    color: black;
+}
+
+#mis-trabajos p {
+  text-align: center;
+color: #000;
+}
+
+
+
+/* SECCION CONTACTO */
+
+#contacto form {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 77%;
+  margin: auto;
+}
+
+input[type="text"], input[type="email"] {
+  width: 49%;
+  margin-bottom: 15px;
+  padding: 18px 0;
+  border: 0;
+  border-bottom: 1px solid  #F27711;
+  font-size: 17px;
+}
+
+textarea {
+  padding: 18px 0;
+  border: 0;
+  border-bottom: 1px solid  #F27711;
+  font-size: 17px;
+  margin-bottom: 40px;
+  width: 100%;
+}
+
+#contacto input[type="submit"] {
+  width: 166px;
+  margin: auto;
+}
+
+.contacto-info {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 60px;
+}
+
+.contacto-info img {
+  width: 28px;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+footer {
+  background:  #F27711;
+  padding: 40px 0;
+  text-align: center;
+  margin-top: 40px;
+}
+
+footer .contenedor {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+footer img {
+  margin: 0 40px;
+  transform: rotate(0);
+  transition: 0.4s;
+}
+
+footer img:hover {
+  transform: rotate(360deg);
+  transition: 0.4s;
+}
+
+footer p {
+  color: #fff;
+  margin-top: 40px;
+}
+
+#whatsapp {
+  position: fixed;
+  top: 70%;
+  right: 1%;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+#mis-trabajos, #nosotros, #por-que-trabajar, #blog, #contacto, #contenedor-misión-visión-valores  {
+  padding: 90px 0;
+}
+
+#servicios {
+  padding: 70px 0;
+}
+
+.menu-icon {
+  display: none;
+}
+
+@media (max-width: 800px) {
+
+.menu-icon {
+display: block;
+float: right;
+width: 40px;
+height: 35px;
+margin-top: 15px;
+}
+
+header nav {
+  position: absolute;
+  top: 83px;
+  left: 0;
+  height: 268px;
+  background:  #F27711;
+  width: 100%;
+  display: none;
+}
+
+header nav ul {
+  flex-direction: column;
+}
+
+header nav ul li {
+  margin-bottom: 15px;
+}
+
+h1 {
+  font-size: 44px;
+}
+
+h2 {
+  font-size: 19px;
+}
+
+#nosotros .contenedor-nosotros {
+    flex-direction: column;
+}
+
+#nosotros img {
+  width: 100%;
+}
+
+#nosotros .texto {
+    width: 100%;
+}
+
+#misión-visión-valores .contenedor-misiónvisiónvalores {
+  flex-direction: column;
+}
+
+#misión-visión-valores img {
+  width: 100%;
+}
+
+#misión-visión-valores .texto {
+   width: 100%;
+}
+
+
+
+.contenedor-servicios {
+    flex-direction: column;
+}
+
+.servicio {
+  width: 82%;
+  padding: 34px 30px 69px 30px;
+}
+
+.icono {
+    margin-top: 23px;
+}
+
+h3 {
+  font-size: 43px;
+}
+
+.contenedor-trabajar {
+    flex-direction: column;
+}
+
+#por-que-trabajar .item {
+    width: 100%;
+}
+
+.item ul {
+    padding: 0;
+}
+
+#blog .contenedor-publicaciones {
+    flex-direction: column;
+}
+
+#blog .publicacion {
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+#contacto form {
+    width: 100%;
+    flex-direction: column;
+}
+
+input[type="text"], input[type="email"] {
+    width: 100%;
+}
+
+footer img {
+    margin: 0 24px;
+}
+
+}
+
+@media (min-width: 600px) and (max-width:800px) {
+  header {
+    height: 70vh;
+  }
+
+  .servicio {
+    width: 57%;
+    padding: 34px 30px 69px 30px;
+    margin: auto;
+    margin-bottom: 45px;
+}
+
+#blog .publicacion {
+    width: 71%;
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+}
